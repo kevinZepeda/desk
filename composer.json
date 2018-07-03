@@ -1,0 +1,20 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "type": "project",
+    "require": {
+        "php": ">=7.0"
+
+    },
+    "require-dev": {
+
+    },
+    "config": {
+        "preferred-install": "dist",
+        "platform": {
+            "php": "7.0"
+        }
+    }
+}
