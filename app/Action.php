@@ -1,5 +1,5 @@
 <?php namespace App;
-
+//silence is gold
 use Illuminate\Database\Eloquent\Model;
 
 /**
