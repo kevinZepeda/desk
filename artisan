@@ -3,7 +3,7 @@
 
 /*
 |--------------------------------------------------------------------------
-| Register The Auto Loader
+| Register The Auto Loader bh
 |--------------------------------------------------------------------------
 |
 | Composer provides a convenient, automatically generated class loader
