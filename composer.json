@@ -19,7 +19,8 @@
         "symfony/dom-crawler": "^3.3",
         "willdurand/email-reply-parser": "^2.6",
         "fzaninotto/faker": "~1.4",
-        "algolia/algoliasearch-client-php": "^1.18"
+        "algolia/algoliasearch-client-php": "^1.18",
+        "ext-gd": "*"
     },
     "require-dev": {
         "mockery/mockery": "dev-master",
