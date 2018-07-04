@@ -1,4 +1,0 @@
-////////////////////////////////////////
-// ajax_send para as forms
-///////////////////////////////////////
-$(".ajax_send").submit(function(e){$.ajax({type:"POST",url:"/ajax_login.php",data:$(".ajax_send").serialize(),beforeSend:function(){null==document.querySelector(".loader")?$("body").prepend('<div class="loader"></div>'):$(".loader").show()},success:function(e){null==document.querySelector("#msg")&&$("form.ajax_send").prepend('<div id="msg" style="text-align:center"></div>'),$("#msg").html(e),$(".loader").fadeOut(),$("html, body").animate({scrollTop:$("#card-header").offset().top},"slow")}}),e.preventDefault()});

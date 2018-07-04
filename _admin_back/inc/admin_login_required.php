@@ -1,1 +1,0 @@
-<?php if(!user_is_logged_in() || !(new user())->is_admin()) header("Location: ".$SITE_URL.$SEO_URL_LOGIN); /*se ja esta logado, rediret to my account*/ ?>

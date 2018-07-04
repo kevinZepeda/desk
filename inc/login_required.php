@@ -1,1 +1,0 @@
-<?php if(!user_is_logged_in()) header("Location: ".get_website('redirect_url_not_logged_in')); /*se ja esta logado, rediret to my account*/?>
